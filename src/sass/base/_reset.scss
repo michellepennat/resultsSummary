@@ -5,6 +5,10 @@
     - The "symbol *" part is to solve Firefox SVG sprite bug
  */
 
+.app {
+  font-family: "Hanken Grotesk", sans-serif;
+}
+
 *:where(:not(iframe, canvas, img, svg, video):not(svg *, symbol *)) {
   all: unset;
   display: revert;
