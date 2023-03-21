@@ -1,0 +1,65 @@
+.result {
+  background-image: linear-gradient(
+    to bottom,
+    $light-slate-blue,
+    #5941f4,
+    #4736ee,
+    $light-royal-blue
+  );
+  border-radius: 0 0 30px 30px;
+  height: auto;
+  padding: 20px 20px 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  h4 {
+    color: $light-lavender;
+    font-weight: 700;
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+
+  &__score {
+    border-radius: 100px;
+    background-image: linear-gradient(to bottom, $violet-blue, $persian-blue);
+    height: 130px;
+    width: 130px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+    h1 {
+      color: $white;
+      font-weight: 800;
+      font-size: 50px;
+    }
+    p {
+      color: $light-lavender;
+      font-weight: 500;
+      font-size: 16px;
+    }
+  }
+
+  &__description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 20px;
+    h2 {
+      color: $white;
+      font-weight: 700;
+      font-size: 22px;
+      margin-bottom: 20px;
+      margin-bottom: 10px;
+    }
+    p {
+      color: $light-lavender;
+      font-size: 16px;
+      font-weight: 500;
+      text-align: center;
+    }
+  }
+}
