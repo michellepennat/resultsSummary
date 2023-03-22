@@ -1,6 +1,7 @@
 <template>
   <main>
     <ResultComponent />
+    <SummaryComponent />
     <div class="attribution">
       Challenge by
       <a
@@ -14,9 +15,10 @@
 </template>
 
 <script>
-import ResultComponent from './components/result/result.vue';
+import ResultComponent from "./components/result/result.vue";
+import SummaryComponent from "./components/summary/summary.vue";
 export default {
   name: "App",
-  components: { ResultComponent },
+  components: { ResultComponent, SummaryComponent },
 };
 </script>
