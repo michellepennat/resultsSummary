@@ -1,5 +1,5 @@
 <template>
-  <section class="result" role="presentation">
+  <div class="result" role="presentation">
     <h4>Your Result</h4>
     <div class="result__score">
       <h1>76</h1>
@@ -11,7 +11,7 @@
         You scored higher than 65% of the people who have taken these tests.
       </p>
     </div>
-  </section>
+  </div>
 </template>
 
 <script>
