@@ -1,5 +1,5 @@
 <template>
-  <main class="result-summary" role="main">
+  <main class="result-summary">
     <section class="content">
       <ResultComponent />
       <SummaryComponent />
