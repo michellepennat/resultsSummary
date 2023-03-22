@@ -1,5 +1,5 @@
 <template>
-  <section class="result">
+  <section class="result" role="presentation">
     <h4>Your Result</h4>
     <div class="result__score">
       <h1>76</h1>
